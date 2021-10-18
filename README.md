@@ -86,7 +86,7 @@ As with the previous portfolio homework, remember that "good" design is subjecti
 This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
-
+```md
 * Satisfies all of the preceding acceptance criteria plus the following:
 
     [] Application must use React to render content.
@@ -118,3 +118,4 @@ This homework is graded based on the following criteria:
 
 [] The URL of the functional, deployed application.
 [] The URL of the GitHub repository, with a unique name and a README that describes the project.
+```

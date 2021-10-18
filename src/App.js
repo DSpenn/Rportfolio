@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import Header from "./components/Header";
+import Project from "./components/Project";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'React Portfolio';
+  }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Header />
+      <Project />
+      <Footer />
     </div>
   );
 }
