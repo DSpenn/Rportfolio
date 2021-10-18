@@ -1,11 +1,11 @@
 import React from 'react';
-
-//Header component that appears on multiple pages, with a `Navigation` component within
+import Navbar from "./Navbar";
 
 function Header() {
   return (
     <header className="header">
-      <h1>Home</h1>
+      <h1>Portfolio</h1>
+      <Navbar />
     </header>
   );
 }

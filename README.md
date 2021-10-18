@@ -82,11 +82,10 @@ As with the previous portfolio homework, remember that "good" design is subjecti
 * Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
 
 ## Grading Requirements
-
-This homework is graded based on the following criteria:
+```md
 
 ### Technical Acceptance Criteria: 40%
-```md
+
 * Satisfies all of the preceding acceptance criteria plus the following:
 
     [] Application must use React to render content.

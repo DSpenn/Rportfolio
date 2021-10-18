@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from "./components/Header";
 import Project from "./components/Project";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -12,8 +11,7 @@ function App() {
   }, []);
   
   return (
-    <div>
-      <Navbar />
+    <div className="App">
       <Header />
       <Project />
       <Footer />
