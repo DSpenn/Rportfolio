@@ -2,7 +2,7 @@
 
 ## Description
 
-portfolio using React
+Portfolio using React
 
 ## Technologies Used
 

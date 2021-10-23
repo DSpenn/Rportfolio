@@ -4,7 +4,7 @@ import ResumeFile from '../../Assets/Resume2021School.pdf';
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
+  const [pageNumber] = useState(1);
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);

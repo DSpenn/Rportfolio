@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/pages/Header";
 import Footer from "./components/pages/Footer";
