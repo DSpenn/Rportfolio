@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import ResumeFile from '../../Assets/Resume2021School.pdf';
 
 function Resume() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
   return (
-    <div className="Resume">
-      <h1>Resume</h1>
-      <a href="./Assets/Resume 2021 school.pdf">Download Resume </a>
+    <div>
+    <Document
+      file={ResumeFile}
+      onLoadSuccess={onDocumentLoadSuccess}>
+      <Page pageNumber={pageNumber} />
+    </Document>
+    <p>Page {pageNumber} of {numPages}</p>
+      <a href = {ResumeFile} target = "blank">Download Pdf</a>
     </div>
   );
 }
