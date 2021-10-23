@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Rportfolio/static/css/main.a617e044.chunk.css",
+    "main.js": "/Rportfolio/static/js/main.92b764bc.chunk.js",
+    "main.js.map": "/Rportfolio/static/js/main.92b764bc.chunk.js.map",
+    "runtime-main.js": "/Rportfolio/static/js/runtime-main.e8df594c.js",
+    "runtime-main.js.map": "/Rportfolio/static/js/runtime-main.e8df594c.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Rportfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.725bab6e.chunk.js": "/Rportfolio/static/js/2.725bab6e.chunk.js",
+    "static/js/2.725bab6e.chunk.js.map": "/Rportfolio/static/js/2.725bab6e.chunk.js.map",
+    "static/js/3.cb6f3f50.chunk.js": "/Rportfolio/static/js/3.cb6f3f50.chunk.js",
+    "static/js/3.cb6f3f50.chunk.js.map": "/Rportfolio/static/js/3.cb6f3f50.chunk.js.map",
+    "3bc629d5f743a1772f7a775c5f5fb0c1.js": "/Rportfolio/3bc629d5f743a1772f7a775c5f5fb0c1.js",
+    "3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt": "/Rportfolio/3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt",
+    "index.html": "/Rportfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/Rportfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/Rportfolio/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.725bab6e.chunk.js.LICENSE.txt": "/Rportfolio/static/js/2.725bab6e.chunk.js.LICENSE.txt",
+    "static/media/Resume2021School.62469a63.pdf": "/Rportfolio/static/media/Resume2021School.62469a63.pdf",
+    "static/media/VibeCloud.aa5b1566.jpg": "/Rportfolio/static/media/VibeCloud.aa5b1566.jpg",
+    "static/media/fitlist.d49a8b8b.jpg": "/Rportfolio/static/media/fitlist.d49a8b8b.jpg",
+    "static/media/mvc1.f1fc88be.jpg": "/Rportfolio/static/media/mvc1.f1fc88be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8df594c.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.725bab6e.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.92b764bc.chunk.js"
+  ]
+}
