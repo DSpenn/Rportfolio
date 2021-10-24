@@ -20,6 +20,7 @@ Create-react-app
 Extras:
 React-PDF: Display PDFs in your React app as easily as if they were images.
 Bootstrap
+react-icons
 ```
 
 ## Grading Requirements

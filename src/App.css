@@ -3,6 +3,10 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .header h2 {
   text-align: start;
 }
