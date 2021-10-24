@@ -1,19 +1,23 @@
 # 20 React: React Portfolio
 
+## Table of Contents
+- [Description](#Description)
+- [Technologies-Used](#Technologies-Used)
+- [Github Pages Deployed](https://dspenn.github.io/Rportfolio/)
+- [Grading Requirements](#Grading-Requirements)
+- [Questions](#Questions)
+
 ## Description
 
 Portfolio using React
+[https://dspenn.github.io/Rportfolio/](https://dspenn.github.io/Rportfolio/)
 
 ## Technologies Used
 
+Create-react-app
 
-
-## Your Task
-
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+Extras:
+React-PDF: Display PDFs in your React app as easily as if they were images.
 
 
 ## Acceptance Criteria
@@ -42,34 +46,7 @@ WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-## Getting Started
-
-You’ll use `create-react-app` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
-* A single `Project` component that will be used multiple times in the Portfolio section
-* A single `Footer` component that appears on multiple pages
-
-**Note:** Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
-
-### Projects
-
-For each project that is featured in your portfolio, include the following:
-* An image of the deployed application (either a short animated GIF or screenshot)
-* The title of the project
-* A link to the deployed application
-* A link to the corresponding GitHub repository
 
 ### Design
 
@@ -86,33 +63,37 @@ As with the previous portfolio homework, remember that "good" design is subjecti
 
 * Satisfies all of the preceding acceptance criteria plus the following:
 
-    [] Application must use React to render content.
-    [] Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
-    [] Application has a single `Project` component that’s used multiple times in the Portfolio section.
-    [] Application has a single `Footer` component that appears on multiple pages.
-    [] Application must be deployed to GitHub Pages.
+    [X] Application must use React to render content.
+    [X] Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
+    [X] Application has a single `Project` component that’s used multiple times in the Portfolio section.
+    [X] Application has a single `Footer` component that appears on multiple pages.
+    [X] Application must be deployed to GitHub Pages.
 
 ### Deployment: 32%
 
-[] Application deployed at live URL.
-[] Application loads with no errors.
-[] Application GitHub URL submitted.
-[] GitHub repository contains application code.
+[X] Application deployed at live URL.
+[X] Application loads with no errors.
+[X] Application GitHub URL submitted.
+[X] GitHub repository contains application code.
 
 ### Application Quality: 15%
 
-[] User experience is intuitive and easy to navigate.
-[] User interface style is clean and polished.
-[] Application uses a color scheme other than the default Bootstrap color palette.
+[X] User experience is intuitive and easy to navigate.
+[X] User interface style is clean and polished.
+[X] Application uses a color scheme other than the default Bootstrap color palette.
 
 ### Repository Quality: 13%
 
 [X] Repository has a unique name.
-[] Repository follows best practices for file structure and naming conventions.
-[] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-[] Repository contains multiple descriptive commit messages.
-[] Repository contains high-quality README file with description, screenshot, and link to deployed application.
+[X] Repository follows best practices for file structure and naming conventions.
+[X] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+[X] Repository contains multiple descriptive commit messages.
+[X] Repository contains high-quality README file with description, screenshot, and link to deployed application.
 
-[] The URL of the functional, deployed application.
-[] The URL of the GitHub repository, with a unique name and a README that describes the project.
+[X] The URL of the functional, deployed application.
+[X] The URL of the GitHub repository, with a unique name and a README that describes the project.
 ```
+
+## Questions
+[https://github.com/Dspenn](https://github.com/Dspenn)
+- Email for any additional questions DerekStander@gmail.com

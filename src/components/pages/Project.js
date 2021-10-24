@@ -37,7 +37,7 @@ function Project() {
               <a href='https://boiling-headland-53434.herokuapp.com'><img src='https://brand.heroku.com/static/media/heroku-logo-stroke-gradient.bb410472.svg' class='img-thumbnail' alt='Heroku Logo mark' style={{ width: '14%' }}></img></a>
               <a href='https://github.com/DSpenn/Project-2'><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' class='img-thumbnail' alt='Github Logo mark' style={{ width: '15%' }}></img></a>
               <div class='card-text'>Project #2 Fitlist</div>
-              <i class='fab fa-node'> 66.5% <br /> 27.5% Handlebars</i><br />
+              <i class='fab fa-node'> 66.5% NodeJS <br /> 27.5% Handlebars</i><br />
               <i class='fab fa-css3'> 6% CSS</i><br />
             </div>
           </div>
