@@ -2,7 +2,6 @@ import React from 'react';
 
 function Contact() {
 
-  
   function handleMouseLeaveName(e) {
     if (!e.target.value)
      alert("Name is required");
@@ -13,10 +12,10 @@ function Contact() {
      alert("Email is required");
 
     const email = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    //console.log(re.test(String(e.target.value).toLowerCase()));
-    if(!email.test(String(e.target.value).toLowerCase()));
+    //console.log(email.test(String(e.target.value).toLowerCase()));
+    if(!email.test(String(e.target.value.toLowerCase())))
     alert("Email is not valid");
-   }
+    }
 
 
   return (
