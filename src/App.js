@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import PortfolioContainer from "./components/PortfolioContainer";
-import Header from "./components/pages/Header";
-import Footer from "./components/pages/Footer";
+import PortfolioContainer from './components/PortfolioContainer';
+import Header from './components/pages/Header';
+import Footer from './components/pages/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   }, []);
   
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <PortfolioContainer />
       <Footer />

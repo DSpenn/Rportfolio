@@ -19,7 +19,7 @@ function Resume() {
 
   return (
     <>
-          <a href = {ResumeFile} target = "blank">Download Pdf</a>
+    <a href = {ResumeFile} target = "blank">Download Pdf</a>
       <Document
         file={ResumeFile}
         onLoadSuccess={onDocumentLoadSuccess}

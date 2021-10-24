@@ -14,10 +14,13 @@ Portfolio using React
 
 ## Technologies Used
 
+```md
 Create-react-app
 
 Extras:
 React-PDF: Display PDFs in your React app as easily as if they were images.
+Bootstrap
+```
 
 ## Grading Requirements
 ```md
