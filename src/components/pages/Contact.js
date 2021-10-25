@@ -1,9 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';    
-import { Button, FormControl, FormLabel,  } from 'react-bootstrap';
-
+import Button from 'react-bootstrap/Button'
+import {FormControl, FormLabel} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
-
 
 function Contact() {
 
