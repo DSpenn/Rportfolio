@@ -1,4 +1,9 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React from 'react';    
+import { Button, FormControl, FormLabel,  } from 'react-bootstrap';
+
+import Form from 'react-bootstrap/Form';
+
 
 function Contact() {
 
@@ -19,16 +24,17 @@ function Contact() {
 
 
   return (
-    <form className='Contact'>
+    <Form className='Contact'>
     <div className='mb-3'>
-    <label htmlFor='inputName' className='form-label'>Name</label>
-      <input type='text' className='form-control input-sm' id='inputName' placeholder='Name' onMouseLeave={handleMouseLeaveName}></input>
-      <label htmlFor='inputEmail' className='form-label'>Email address</label>
-      <input type='email' className='form-control input-sm' id='inputEmail' placeholder='Email' onMouseLeave={handleMouseLeaveEmail}></input>
-      <div className='form-text'>We'll never share your email with anyone.</div>
-      <button type='button' className='btn btn-secondary btn-sm'>Submit</button>
+    <FormLabel htmlFor='inputName'>Name</FormLabel>
+      <Form.Control type='text' id='inputName' placeholder='Name' onMouseLeave={handleMouseLeaveName}></Form.Control>
+      <FormLabel htmlFor='inputEmail' >Email address</FormLabel>
+      <Form.Control type='email' id='inputEmail' placeholder='Email' onMouseLeave={handleMouseLeaveEmail}></Form.Control>
+      <Form.Text>We'll never share your email with anyone.</Form.Text>
+      <br />
+      <Button className='btn btn-secondary btn-sm'>Submit</Button>
     </div>
-  </form>
+  </Form>
   );
 }
 

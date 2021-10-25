@@ -4,7 +4,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
-import MatrixRain from '../MatrixRain';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
       return <Contact />;
     }
     if (currentPage === 'Home') {
-      return <MatrixRain />;
+      return <Project />;
     }
   };
 
