@@ -1,10 +1,10 @@
 import React from 'react';
-//import Nav from 'react-bootstrap/Nav';
+import Nav from 'react-bootstrap/Nav';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className='nav nav-tabs'>
-      <li className='nav-item'>
+    <Nav className='nav-tabs'>
+      <Nav.Item>
         <a
           href='#About'
           onClick={() => handlePageChange('About')}
@@ -12,8 +12,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           About Me
         </a>
-      </li>
-      <li className='nav-item'>
+      </Nav.Item>
+      <Nav.Item>
         <a
           href='#Project'
           onClick={() => handlePageChange('Project')}
@@ -21,8 +21,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Portfolio
         </a>
-      </li>
-      <li className='nav-item'>
+      </Nav.Item>
+      <Nav.Item>
         <a
           href='#contact'
           onClick={() => handlePageChange('Contact')}
@@ -30,8 +30,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-      <li className='nav-item'>
+      </Nav.Item>
+      <Nav.Item>
         <a
           href='#Resume'
           onClick={() => handlePageChange('Resume')}
@@ -39,8 +39,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
-    </ul>
+      </Nav.Item>
+    </Nav> 
   );
 }
 
