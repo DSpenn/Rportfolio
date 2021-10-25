@@ -22,6 +22,8 @@ React-PDF: Display PDFs in your React app as easily as if they were images.
 Bootstrap
 react-icons
 ```
+[https://github.com/M4FFS/Matrix-Rain-Background-React/](https://github.com/M4FFS/Matrix-Rain-Background-React/) <br />
+[https://www.youtube.com/watch?v=qLbQ0NBa5zM](https://www.youtube.com/watch?v=qLbQ0NBa5zM)
 
 ## Grading Requirements
 ```md
