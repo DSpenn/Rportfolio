@@ -62,7 +62,7 @@ function Project() {
               <Card.Img className='img-fluid mx-auto d-block mb-3' src={VcImg} alt='Vibe cloud project App'></Card.Img>
               <Card.ImgOverlay className='invisible'> 
                 <Card.Text>Project #1 VibeCloud</Card.Text><a href='https://dspenn.github.io/Project1/'>Github Pages</a><br />
-                <i className='fab fa-js'><SiJavascript /> 46.5% JavaScript </i><br />
+                <i className='fab'><SiJavascript /> 46.5% JavaScript </i><br />
                 <i className='fab'><FaHtml5 />   28.5% HTML </i><br />
                 <i className='fab'><FaCss3 /> 25% CSS</i><br />
                 <Card.Link href='https://github.com/DSpenn/Project1'>
